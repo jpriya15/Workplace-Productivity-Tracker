@@ -113,10 +113,6 @@ Single-page dashboard covering all key productivity metrics.
   those who were overdue — suggesting project timeline estimation 
   needs improvement
 
-- **High average bench period** of 183 days represents significant 
-  idle cost — employees are waiting several months before being 
-  assigned to projects
-
 - **Data quality issue identified** — some records had logout before 
   login time, which was handled via a WHERE clause filter in SQL 
   before calculating project hours
@@ -135,14 +131,6 @@ Single-page dashboard covering all key productivity metrics.
   months before project assignment; faster allocation processes 
   would reduce unnecessary costs
 
-- **Standardize appraisal cycles** — the wide variation in appraisal 
-  cycles across employees suggests inconsistent review practices; 
-  a structured appraisal cadence would improve fairness and 
-  performance tracking
-
-- **Address data quality at source** — login/logout inconsistencies 
-  found in the dataset suggest a need for better time-tracking 
-  systems or validation rules at data entry level
   
 ## Repository Structure
 
